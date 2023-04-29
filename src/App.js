@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <Banner fetchUrl={request.fetchTrending} />
-      {/* <ROW
+      <ROW
         title="NETFLIX ORIGINALS"
         fetchUrl={request.fetchNetflixOriginals}
         isLargeROW={true}
@@ -23,7 +23,7 @@ function App() {
       <ROW title="COMEDY" fetchUrl={request.fetchComediesMovies} />
       <ROW title="HORROR" fetchUrl={request.fetchHorrorMovies} />
       <ROW title="ROMANCE" fetchUrl={request.fetchRomanceMovies} />
-      <ROW title="DOCUMENTRIES" fetchUrl={request.fetchDocumentaries} /> */}
+      <ROW title="DOCUMENTRIES" fetchUrl={request.fetchDocumentaries} /> 
     </div> 
   );
 }
